@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: lightblue;
+    font-family: 'Press Start 2P';
+}
+
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+p{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+ul {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 30em;
+    gap: 4em;
+    list-style: none;
+    top: 42em;
+
+}
+
+
+
+ul li img{
+    position: relative;
+    width: 100%;
+}
+
+.toad1{
+    width: 8em;
+    left: 1em;
+    bottom: -3em;
+    position: absolute;
+    z-index: -1;
+}
+
+.toad2{
+    width: 8em;
+    left: 14em;
+    bottom: -3em;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.toad3{
+    width: 8em;
+    bottom: -3em;
+    left: 27.4em;
+    position: absolute;
+    z-index: -1;
+}
